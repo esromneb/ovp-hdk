@@ -1,0 +1,3 @@
+[submodule "ovp-hdl"]
+	path = ovp-hdl
+	url = git@github.com:esromneb/ovp-hdl.git
