@@ -10,6 +10,7 @@ OUTPUT=build/bitfile.bit
 bitfile:
 	make -C ovp-hdl all
 	mkdir -p build
+	rm -rf ${OUTPUT}
 	echo "Now Building" >> ${OUTPUT}
 	cat ovp-hdl/gen/example_version.sv >> ${OUTPUT}
 	echo "Done" >> ${OUTPUT}
