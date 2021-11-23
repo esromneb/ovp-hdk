@@ -38,6 +38,8 @@ jobs:
         with:
           node-version: 12
           registry-url: https://npm.pkg.github.com/
+      - run: npm config set git-tag-version false
+      - run: npm config set commit-hooks false
       - run: npm version patch --force
       - run: npm publish
         env:
