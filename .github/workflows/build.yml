@@ -13,9 +13,12 @@ jobs:
         pwd
         ls
         find
+    - name: Build
+      run: |
+        make all
     - name: run open-version-pack
       run: |
-        make f=ovpack.txt discover-pack
+        make f=build/ovpack.txt discover-pack
     - name: see results
       run: |
-        cat ovpack.txt
+        cat build/ovpack.txt
