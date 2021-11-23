@@ -11,7 +11,7 @@ bitfile:
 	make -C ovp-hdl all
 	mkdir -p build
 	echo "Now Building" >> ${OUTPUT}
-	cp ovp-hdl/gen/example_version.sv >> ${OUTPUT}
+	cat ovp-hdl/gen/example_version.sv >> ${OUTPUT}
 	echo "Done" >> ${OUTPUT}
 	@echo "Done"
 
