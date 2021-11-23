@@ -13,3 +13,9 @@ jobs:
         pwd
         ls
         find
+    - name: run open-version-pack
+      run: |
+        make f=ovpack.txt discover-pack
+    - name: see results
+      run: |
+        cat ovpack.txt
