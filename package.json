@@ -1,0 +1,20 @@
+{
+  "name": "ovp-hdk",
+  "version": "1.0.0",
+  "description": "Example usage of https://github.com/esromneb/open-version-pack",
+  "main": "",
+  "files": ["build"],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esromneb/ovp-hdk.git"
+  },
+  "author": "esromneb",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/esromneb/ovp-hdk/issues"
+  },
+  "homepage": "https://github.com/esromneb/ovp-hdk#readme"
+}
