@@ -1,5 +1,5 @@
 {
-  "name": "ovp-hdk",
+  "name": "@esromneb/ovp-hdk",
   "version": "1.0.0",
   "description": "Example usage of https://github.com/esromneb/open-version-pack",
   "main": "",
