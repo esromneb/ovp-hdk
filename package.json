@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/esromneb/ovp-hdk/issues"
   },
-  "homepage": "https://github.com/esromneb/ovp-hdk#readme"
+  "homepage": "https://github.com/esromneb/ovp-hdk#readme",
+  "publishConfig": {
+    "@esromneb:registry": "https://npm.pkg.github.com"
+  }
 }
